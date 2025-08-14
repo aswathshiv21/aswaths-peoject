@@ -1,0 +1,484 @@
+/* All things  */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 10vh;
+    width: 100%;
+}
+
+.header-content {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7f6ee6;
+}
+
+.logo {
+    padding-left: 2vh;
+}
+
+.input-box input {
+    width: 70vh;
+    height: 5vh;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+}
+
+.links ul li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-btn {
+    padding: 10px;
+    background-color: #433792;
+    border-radius: 5px;
+}
+
+/* main content styling  */
+
+/* section1 image  */
+.background-image {
+    background-color: #2f2959;
+}
+
+.background-image img {
+    width: 100%;
+    height: 80vh;
+}
+
+/* main all content stylings  */
+
+.main-section2 , .main-section3 {
+    padding-top: 5%;
+    background-color: #2f2959;
+    height: 128.5vh;
+    border-top: 1px solid gray;
+    display: flex;
+}
+
+.whoman-weres , .mans-wearing {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin: auto;
+}
+
+.boxs {
+    height: 43.375vh;
+    width: 39.875vh;
+    background-color: #7f6ee6;
+    border-radius: 38px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.boxs:hover {
+    box-shadow: 5px 5px 20px;
+    transform: translateY(-10px);
+}
+
+.boxs h1 {
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.boxs img {
+    height: 70%;
+    width: 90%;
+    border-radius: 38px;
+}
+
+/* maon h2 lower kace  */
+
+.main-section4 {
+    padding-top: 5%;
+    background-color: #2f2959;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.main-section4 h2 {
+    color: white;
+    display: inline-block;
+}
+
+.main-section4 a {
+    text-decoration: none;
+    color: #2f2959;
+    background-color: #7f6ee6;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 36px;
+}
+
+/* footer styling  */
+
+.footer {
+    background-color: #000000;
+    height: 123.5vh;
+    color: aliceblue;
+}
+
+footer .logo {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+}
+
+.footer  .footer-content {
+    background-color: #000000;
+    height: 103vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-links ul {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer-links ul li {
+    list-style: none;
+    color: peru;
+    font-size: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: peru;
+}
+
+/* about pages  */
+
+.about-main {
+    height: 123.5vh;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-main-content {
+    height: 113vh;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px;
+}
+
+/* About footer styling  */
+
+.about-footer {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    background-color: #433792;
+}
+
+/* contact page styling  */
+
+.contect-main {
+    height: 123.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-main-container {
+    display: flex;
+    height: 103.5vh;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-main-content {
+    height: 103.2vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    height: 70%;
+    width: 100%;
+}
+
+.contact ul {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.contact-input {
+    height: 5vh;
+    width: 70vh;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.contact-input-note  {
+    height: 25vh;
+    width: 70vh;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.contact-main-containt2 {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-main-containt2 p {
+    font-size: 28px;
+}
+
+/* help page content styling  */
+
+.help-main {
+    height: 123.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-main-content ol {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.help-main-content h1 {
+    font-size: 38px;
+}
+
+.help-main-content ol li {
+    font-size: 28px;
+}
+
+.help-main-content ol li a {
+    text-decoration: none;
+    color: #2f2959;
+    background-color: #433792;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 60px 0;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #7f6ee6;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-btn-full {
+    width: 100%;
+    background-color: #2f2959;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn-full:hover {
+    background-color: #2E7D32;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+.login-footer a {
+    color: #433792;
+    text-decoration: none;
+}
+
+@media (max-width: 1115px) {
+    .header-content {
+        flex-direction: column;
+        height: 25vh;
+        justify-content: space-around;
+    }
+    header {
+        height: 25vh;
+    }
+
+    .input-box input {
+        width: 100%;
+    }
+
+    .whoman-weres , .mans-wearing {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .about-main-content {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 868px) {
+    .whoman-weres , .mans-wearing {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .main-section2 , .main-section3 {
+        height: 169.5vh;
+    }
+
+    .contact-main-content {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-input {
+        width: 80%;
+    }
+
+    .contact-input-note {
+        width: 40vh;
+    }
+
+    .contact {
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 786px) {
+    .main-section4-h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .footer  .footer-content {
+        height: 173.5vh;
+        flex-direction: column;
+    }
+
+    .help-main-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 571px) {
+    .whoman-weres , .mans-wearing {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .main-section2 , .main-section3 {
+        height: 310.5vh;
+    }
+    .links ul {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+    }
+
+    .links ul li {
+       padding-top: 10px;
+    }
+}
